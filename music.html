@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- Navigation Menu -->
+<nav class="navbar">
+    <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Survey</a></li>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Survey Form -->
+<div class="container">
+    <h2>Music Survey</h2>
+
+    <form>
+        <!-- Name & Email -->
+        <label>Name:</label><br>
+        <input type="text"><br><br>
+
+        <label>E-Mail:</label><br>
+        <input type="email"><br><br>
+
+        <!-- Favorite Music -->
+        <fieldset>
+            <legend>Select Your Favorite Types of Music:</legend>
+            <input type="checkbox"> Pop<br>
+            <input type="checkbox"> Classical<br>
+            <input type="checkbox"> Rock<br>
+            <input type="checkbox"> Folk<br>
+            <input type="checkbox"> Rap<br>
+            <input type="checkbox"> Other<br>
+        </fieldset>
+
+        <br>
+
+        <!-- Purchase Frequency -->
+        <fieldset>
+            <legend>Select how often you purchase Music:</legend>
+            <input type="radio" name="music"> Weekly<br>
+            <input type="radio" name="music"> A few CDs each year<br>
+            <input type="radio" name="music"> Monthly<br>
+            <input type="radio" name="music"> Never purchase<br>
+        </fieldset>
+
+        <br>
+
+        <!-- Locations -->
+        <label>Select the locations you listen to Music:</label><br>
+        <select multiple size="3">
+            <option>At home</option>
+            <option>In the car</option>
+            <option>Anywhere</option>
+        </select>
+
+        <br><br>
+
+        <!-- Text Area -->
+        <label>What role does music play in your life?</label><br>
+        <textarea rows="4" cols="40"></textarea>
+
+        <br><br>
+
+        <!-- Buttons -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</div>
+
+</body>
+</html>

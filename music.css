@@ -1,0 +1,55 @@
+body {
+    background-color: #d3d3d3;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    width: 420px;
+    margin: 20px auto 10px;
+    padding: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+
+.nav-list a:hover {
+    border: 1px solid #999;
+    background-color: #e6e6e6;
+}
+
+/* Form container */
+.container {
+    width: 420px;
+    margin: auto;
+    background-color: #eee;
+    padding: 15px;
+    border: 1px solid #999;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 200px;
+}
+
+/* Fieldsets */
+fieldset {
+    border: 1px solid #999;
+    padding: 10px;
+}
